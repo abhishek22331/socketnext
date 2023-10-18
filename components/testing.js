@@ -13,7 +13,7 @@ const Home = () => {
   }, []);
 
   async function socketInitializer() {
-    await fetch("/api/socket");
+    await fetch("/api/socket2");
 
     socket = io();
     console.log(socket, "sosooso");
